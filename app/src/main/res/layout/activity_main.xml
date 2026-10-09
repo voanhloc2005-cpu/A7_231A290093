@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LAB A7 - QUYỀN ANDROID"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/btnCameraPermission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Xin quyền camera" />
+
+        <Button
+            android:id="@+id/btnTakePhoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chụp ảnh xem trước" />
+
+        <ImageView
+            android:id="@+id/imgPreview"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="12dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="Ảnh xem trước"
+            android:background="#EEEEEE" />
+
+        <Button
+            android:id="@+id/btnNotificationPermission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Xin quyền thông báo" />
+
+        <Button
+            android:id="@+id/btnSendNotification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gửi thông báo" />
+
+    </LinearLayout>
+</ScrollView>
+
